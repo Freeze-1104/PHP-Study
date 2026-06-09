@@ -9,3 +9,8 @@
 // 出力例 「johnの評価は良です」
 
 $scores = array("John" => 85, "Jane" => 92, "Jim" => 78);
+foreach ($scores as $scores) {
+    if ($scores > 90) {
+        echo "johnの評価は優です\n";
+    }
+}
